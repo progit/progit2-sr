@@ -54,9 +54,9 @@
       "1-github.asc": 100,
       "sections/1-setting-up-account.asc": 100,
       "sections/2-contributing.asc": 100,
-      "sections/3-maintaining.asc": 99,
-      "sections/4-managing-organization.asc": 99,
-      "sections/5-scripting.asc": 5
+      "sections/3-maintaining.asc": 100,
+      "sections/4-managing-organization.asc": 100,
+      "sections/5-scripting.asc": 100
     },
     "07-git-tools": {
       "1-git-tools.asc": 100,
