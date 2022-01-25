@@ -1,37 +1,37 @@
-# Contributing to Pro Git (2nd Edition)
+# Davanje doprinosa knjizi Pro Git (drugo izdanje)
 
 
-## Licensing
+## Licenciranje
 
-By opening a pull request to this repository, you agree to provide your work under the [project license](LICENSE.asc).
-Also, you agree to grant such license of your work as is required for the purposes of future print editions to @ben and @schacon.
-Should your changes appear in a printed edition, you'll be included in the [contributors list](book/contributors.asc).
+Otvaranjem zahteva za povlačenje u ovom repozitorijumu, pristajete da vaš rad bude obuhvaćen [licencom projekta](LICENSE.asc).
+Takođe, pristajete da @ben i @schacon dobiju ta prava na vaš rad za potrebe budućih štampanih izdanja.
+Ako se vaše izmene pojave u štampanom izdanju, naći ćete se na [listi saradnika](book/contributors.asc).
 
-## Small Corrections
+## Male ispravke
 
-Errata and basic clarifications will be accepted if we agree that they improve the content. You can also open an issue so we can figure out how or if it needs to be addressed.
+Ispravke grešaka i pojašnjenja će se prihvatiti ako se složimo da unapređuju sadržaj. Takođe možete i da otvorite nerešeni problem, tako da možemo odrediti kako ili da li je potrebno da se on reši.
 
-If you've never done this before, the [flow guide](https://guides.github.com/introduction/flow/) might be useful.
+Ako ovo nikada niste radili, može vam biti koristan [vodič kroz proces rada.](https://guides.github.com/introduction/flow/)
 
-## Large Rewrites
+## Velike izmene
 
-Open an issue for discussion before you start. These changes tend to be very subjective, often only clarifying things for some small percentage of people and it's rarely worth the time to accept them. Professional copy editors have already reviewed this content multiple times so while you may have somewhat better taste and grammar than we do it's unlikely that your prose is going to be *so* much better that it's worth changing vast swaths of text.
+Pre nego što počnete, ovorite diskusiju o problemu. Ove izmene su često vrlo subjektivne i uglavnom pojašnjavaju stvari samo za mali procenat ljudi, tako da retko kad može da se opravda vreme potrebno da se izmene prihvate. Profesionalni recezenti su ovaj sadržaj pregledali više puta, i mada je moguće da imate malo više ukusa i znanja gramatike od nas, malo je verovatno da će vaše pripovedanje biti *toliko* bolje od našeg, pa da izmena ogromnih delova teksta bude opravdana.
 
-## Figures
+## Slike
 
-The images in this book were generated using [Sketch 3](http://bohemiancoding.com/sketch/), with the [included sketchbook file](diagram-source/progit.sketch).
+Slike u ovoj knjizi su generisane upotrebom [Sketch 3](http://bohemiancoding.com/sketch/), koristeći [priloženi sketchbook fajl](diagram-source/progit.sketch).
 
-To add a figure:
+Ako želite da dodate sliku:
 
-1. Add a page to the sketchbook. Try to use the included symbols wherever possible.
-1. Add a "slice" to your page. Give it a name that matches the destination PNG filename, relative from the root of the source directory.
-1. Make sure your slice is set to export at "800w".
+1. Dodajte stranicu u sketchbook. Kad god je to moguće, koristite postojeće simbole.
+1. Dodajte „slajs” na svoju stranicu. Dajte mu ime koje se podudara sa imenom PNG fajla odredišta, relativno u odnosu na koreni direktorijum stabla izvornog koda.
+1. Obezbedite da je vaš slajs podešen tako da se izveze u „800w”.
 
 
-## Translations
+## Prevodi
 
-Translations to other languages are highly encouraged but handled a little differently than the first edition. We now keep each translation in a separate repository and automatically build the output files through Atlas. This was something that was really difficult in the last edition.
+Prevodi na druge jezike su vrlo poželjni ali se obrađuju na drugačiji način u odnosu na prvo izdanje. Sada svaki prevod držimo u odvojenom repozitorijumu i automatski igrađujemo izlazne fajlove kroz Atlas. Ovo je nešto što je bilo zaista teško u poslednjem izdanju.
 
-Since each translation is a different repository, we can also have different maintainers for each project. The Pro Git team simply pulls them in and builds them for the translation teams. To get automatic builds, translations repositories will have to be under the [`progit` organization on GitHub](https://github.com/progit).
+Pošto svaki prevod ima svoj repozitorijum, svaki projekat može da održava neko drugi. Pro Git tim ih prosto povlači i radi izgradnju umesto prevodilačkih timova. Da bi se automatski izgrađivali, repozitorijumi prevoda moraju da se nalaze unutar [`progit` organizacije na servisu GitHub](https://github.com/progit).
 
-You can find out information on all the current translations and information on how to start your own at http://progit.org/translations.
+Sve informacije o trenutnim prevodima, kao i način da započnete sopstveni prevod možete da pronađete na adresi http://progit.org/translations.
