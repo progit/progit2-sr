@@ -85,11 +85,9 @@
     },
     "09-git-and-other-scms": {
       "1-git-and-other-scms.asc": 100,
-      "sections/client-bzr.asc": 100,
       "sections/client-hg.asc": 100,
       "sections/client-p4.asc": 100,
       "sections/client-svn.asc": 100,
-      "sections/import-bzr.asc": 100,
       "sections/import-custom.asc": 100,
       "sections/import-hg.asc": 100,
       "sections/import-p4.asc": 100,
@@ -120,8 +118,6 @@
     "B-embedding-git": {
       "1-embedding-git.asc": 100,
       "sections/command-line.asc": 100,
-      "sections/dulwich.asc": 100,
-      "sections/go-git.asc": 100,
       "sections/jgit.asc": 100,
       "sections/libgit2.asc": 100
     },
